@@ -70,6 +70,12 @@ if not reg.view().is_bound("github", "alice", gl.message.sender_address):
 
 `tools/build.sh` rebuilds the same bytes (Rust 1.98.1, binaryen version_133) so the SHA-256 can be compared with the code the chain runs, for example with the verifier at https://brossxnft.github.io/genlayer-chunked-deploy/.
 
+Transactions that exercise the contract on Bradbury (all finalized with 5 validators unless noted):
+
+| What | GenLayer tx |
+|---|---|
+| `claim("github", "brossXnft", gist)`: every validator fetched [the gist](https://gist.github.com/brossXnft/396884032b9675603bbf67917a1cba83) through the GitHub API, found the token and stored the binding; `is_bound` now returns true (5/5 agree) | [`0xb38fbd57eb867a25…`](https://scan.bradbury.genlayer.com/tx/0xb38fbd57eb867a250806c49f403a6479cde4cc3fc36b8064f632b097852c19fd) |
+
 ## Build and deploy
 
 ```bash

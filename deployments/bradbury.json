@@ -5,5 +5,10 @@
   "sha256": "aa932d75adb9e62f004b55cb28fa53194ed1040d91fdc0c2f9f5abd7b4df5bb2",
   "size": 246739,
   "deploy_tx": "0xf24c4c39c72e65a0e7146c46180ab67be29f08411460611832653f4ca584279d",
-  "evidence": []
+  "evidence": [
+    {
+      "what": "`claim(\"github\", \"brossXnft\", gist)`: every validator fetched [the gist](https://gist.github.com/brossXnft/396884032b9675603bbf67917a1cba83) through the GitHub API, found the token and stored the binding; `is_bound` now returns true (5/5 agree)",
+      "tx": "0xb38fbd57eb867a250806c49f403a6479cde4cc3fc36b8064f632b097852c19fd"
+    }
+  ]
 }
