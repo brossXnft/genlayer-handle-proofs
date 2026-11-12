@@ -1,0 +1,9 @@
+{
+  "chain_id": 4221,
+  "network": "bradbury",
+  "address": "0x3bfa7dac02d3b271162150fd2d365dfb7a4b2885",
+  "sha256": "aa932d75adb9e62f004b55cb28fa53194ed1040d91fdc0c2f9f5abd7b4df5bb2",
+  "size": 246739,
+  "deploy_tx": "0xf24c4c39c72e65a0e7146c46180ab67be29f08411460611832653f4ca584279d",
+  "evidence": []
+}
